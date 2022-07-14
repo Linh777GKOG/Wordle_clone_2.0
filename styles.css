@@ -42,3 +42,12 @@ body {
   cursor: pointer;
   user-select: none;
 }
+
+.key.large {
+  grid-column: span 3;
+}
+
+.key > svg {
+  width: 1.75em;
+  height: 1.75em;
+}
