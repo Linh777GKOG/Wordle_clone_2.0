@@ -14,3 +14,10 @@ body {
   padding: 1em;
   font-size: clamp(0.5rem, 2.5vmin, 1.5rem);
 }
+.keyboard {
+  display: grid;
+  grid-template-columns: repeat(20, minmax(auto, 1.25em));
+  grid-auto-rows: 3em;
+  gap: 0.25em;
+  justify-content: center;
+}
