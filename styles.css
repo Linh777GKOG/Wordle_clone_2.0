@@ -115,3 +115,15 @@ body {
   border: none;
   background-color: hsl(115, 29%, 43%);
 }
+
+.tile.shake {
+  animation: shake 250ms ease-in-out;
+}
+
+.tile.dance {
+  animation: dance 500ms ease-in-out;
+}
+
+.tile.flip {
+  transform: rotateX(90deg);
+}
